@@ -1,0 +1,9 @@
+{
+  "name": "glam-site-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Serves the GLAM website and handles Razorpay orders. No dependencies.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 580" width="800" height="580" role="img" aria-label="Extension Care Kit (placeholder artwork)">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6e9e1"/><stop offset="1" stop-color="#e6cfc3"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e7c887"/><stop offset=".5" stop-color="#c9a15a"/><stop offset="1" stop-color="#a9803c"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fffaf6"/><stop offset=".55" stop-color="#f3e5dc"/><stop offset="1" stop-color="#dcc3b5"/></linearGradient>
+<linearGradient id="amber" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9a76a"/><stop offset=".5" stop-color="#b9783d"/><stop offset="1" stop-color="#8f5a2c"/></linearGradient>
+<linearGradient id="ink" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4a3a40"/><stop offset="1" stop-color="#2b2024"/></linearGradient>
+</defs>
+<rect width="800" height="580" fill="url(#bg)"/>
+<circle cx="610" cy="120" r="210" fill="#fff" opacity=".28"/>
+<circle cx="150" cy="500" r="170" fill="#b96f5d" opacity=".10"/>
+<ellipse cx="400" cy="498" rx="150" ry="18" fill="#3b2a2a" opacity=".16"/>
+<rect x="210" y="250" width="380" height="230" rx="14" fill="#2b2024"/>
+<rect x="210" y="250" width="380" height="64" rx="14" fill="#3a2b31"/>
+<text x="400" y="296" text-anchor="middle" font-family="Georgia,serif" font-size="30" letter-spacing="8" fill="#e7c887">GLAM</text>
+<line x1="300" y1="330" x2="500" y2="330" stroke="#c9a15a" stroke-width="1.4"/>
+<text x="400" y="372" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#f3e5dc">Extension</text>
+<text x="400" y="398" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#f3e5dc">Care Kit</text>
+<g transform="translate(468 120) rotate(18)"><rect x="0" y="0" width="38" height="140" rx="12" fill="url(#gold)"/><rect x="-14" y="-52" width="66" height="70" rx="20" fill="#b96f5d"/></g>
+<g transform="translate(252 150)"><rect x="0" y="40" width="64" height="150" rx="10" fill="url(#amber)"/><rect x="14" y="0" width="36" height="46" rx="6" fill="url(#gold)"/></g>
+<text x="400" y="552" text-anchor="middle" font-family="Georgia,serif" font-size="15" letter-spacing="5" fill="#8a5446">HAIR EXTENSIONS</text>
+</svg>

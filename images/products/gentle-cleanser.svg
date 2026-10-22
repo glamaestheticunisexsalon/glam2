@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 580" width="800" height="580" role="img" aria-label="Gentle Cleanser (placeholder artwork)">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6e9e1"/><stop offset="1" stop-color="#e6cfc3"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e7c887"/><stop offset=".5" stop-color="#c9a15a"/><stop offset="1" stop-color="#a9803c"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fffaf6"/><stop offset=".55" stop-color="#f3e5dc"/><stop offset="1" stop-color="#dcc3b5"/></linearGradient>
+<linearGradient id="amber" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9a76a"/><stop offset=".5" stop-color="#b9783d"/><stop offset="1" stop-color="#8f5a2c"/></linearGradient>
+<linearGradient id="ink" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4a3a40"/><stop offset="1" stop-color="#2b2024"/></linearGradient>
+</defs>
+<rect width="800" height="580" fill="url(#bg)"/>
+<circle cx="610" cy="120" r="210" fill="#fff" opacity=".28"/>
+<circle cx="150" cy="500" r="170" fill="#b96f5d" opacity=".10"/>
+<ellipse cx="400" cy="498" rx="150" ry="18" fill="#3b2a2a" opacity=".16"/>
+<path d="M335 100 h130 l-6 30 h-118z" fill="#d9c0ae"/>
+<path d="M341 130 h118 q10 0 12 12 l20 322 q1 16 -15 16 h-152 q-16 0 -15 -16 l20 -322 q2 -12 12 -12z" fill="#fffaf6" stroke="#d3b8a8"/>
+<path d="M345 150 l-14 300" stroke="#fff" stroke-opacity=".8" stroke-width="7" stroke-linecap="round"/>
+<rect x="352" y="458" width="96" height="22" fill="url(#gold)" opacity="0"/>
+<rect x="335" y="300" width="130" height="118" rx="6" fill="#f6e9e1"/>
+<text x="400" y="334" text-anchor="middle" font-family="Georgia,serif" font-size="26" letter-spacing="4" fill="#a45848">GLAM</text>
+<line x1="360" y1="346" x2="440" y2="346" stroke="#c9a15a" stroke-width="1.4"/>
+<text x="400" y="370" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#4a3a40">Gentle</text>
+<text x="400" y="388" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#4a3a40">Cleanser</text>
+<text x="400" y="552" text-anchor="middle" font-family="Georgia,serif" font-size="15" letter-spacing="5" fill="#8a5446">SKIN CARE</text>
+</svg>

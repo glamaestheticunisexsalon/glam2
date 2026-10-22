@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Replace [WEBSITE URL] with the verified production origin before launch. -->
+  <url><loc>[WEBSITE URL]/</loc></url>
+  <url><loc>[WEBSITE URL]/about.html</loc></url>
+  <url><loc>[WEBSITE URL]/services.html</loc></url>
+  <url><loc>[WEBSITE URL]/service-detail.html?service=hair-colors</loc></url>
+  <url><loc>[WEBSITE URL]/service-detail.html?service=hair-extensions</loc></url>
+  <url><loc>[WEBSITE URL]/service-detail.html?service=makeup</loc></url>
+  <url><loc>[WEBSITE URL]/service-detail.html?service=hair-styling</loc></url>
+  <url><loc>[WEBSITE URL]/service-detail.html?service=hair-spa</loc></url>
+  <url><loc>[WEBSITE URL]/service-detail.html?service=hair-treatment</loc></url>
+  <url><loc>[WEBSITE URL]/service-detail.html?service=detan</loc></url>
+  <url><loc>[WEBSITE URL]/service-detail.html?service=facials</loc></url>
+  <url><loc>[WEBSITE URL]/service-detail.html?service=manicure-pedicure</loc></url>
+  <url><loc>[WEBSITE URL]/service-detail.html?service=waxing</loc></url>
+  <url><loc>[WEBSITE URL]/service-detail.html?service=threading</loc></url>
+  <url><loc>[WEBSITE URL]/service-detail.html?service=microblading</loc></url>
+  <url><loc>[WEBSITE URL]/service-detail.html?service=skin-rejuvenation</loc></url>
+  <url><loc>[WEBSITE URL]/products.html</loc></url>
+  <url><loc>[WEBSITE URL]/product-detail.html?product=argan-hair-serum</loc></url>
+  <url><loc>[WEBSITE URL]/product-detail.html?product=repair-shampoo</loc></url>
+  <url><loc>[WEBSITE URL]/product-detail.html?product=nourishing-hair-mask</loc></url>
+  <url><loc>[WEBSITE URL]/product-detail.html?product=extension-care-kit</loc></url>
+  <url><loc>[WEBSITE URL]/product-detail.html?product=vitamin-c-serum</loc></url>
+  <url><loc>[WEBSITE URL]/product-detail.html?product=gentle-cleanser</loc></url>
+  <url><loc>[WEBSITE URL]/product-detail.html?product=daily-sunscreen</loc></url>
+  <url><loc>[WEBSITE URL]/product-detail.html?product=beard-oil</loc></url>
+  <url><loc>[WEBSITE URL]/shipping-returns.html</loc></url>
+  <url><loc>[WEBSITE URL]/offers.html</loc></url>
+  <url><loc>[WEBSITE URL]/gallery.html</loc></url>
+  <url><loc>[WEBSITE URL]/contact.html</loc></url>
+  <url><loc>[WEBSITE URL]/booking.html</loc></url>
+  <url><loc>[WEBSITE URL]/privacy-policy.html</loc></url>
+  <url><loc>[WEBSITE URL]/terms.html</loc></url>
+  <url><loc>[WEBSITE URL]/cancellation-policy.html</loc></url>
+  <url><loc>[WEBSITE URL]/blog/</loc></url>
+  <url><loc>[WEBSITE URL]/blog/hair-extension-care.html</loc></url>
+  <url><loc>[WEBSITE URL]/blog/carbon-laser-guide.html</loc></url>
+  <url><loc>[WEBSITE URL]/blog/chemical-peel-guide.html</loc></url>
+</urlset>

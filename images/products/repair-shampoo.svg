@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 580" width="800" height="580" role="img" aria-label="Repair Shampoo (placeholder artwork)">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6e9e1"/><stop offset="1" stop-color="#e6cfc3"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e7c887"/><stop offset=".5" stop-color="#c9a15a"/><stop offset="1" stop-color="#a9803c"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fffaf6"/><stop offset=".55" stop-color="#f3e5dc"/><stop offset="1" stop-color="#dcc3b5"/></linearGradient>
+<linearGradient id="amber" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9a76a"/><stop offset=".5" stop-color="#b9783d"/><stop offset="1" stop-color="#8f5a2c"/></linearGradient>
+<linearGradient id="ink" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4a3a40"/><stop offset="1" stop-color="#2b2024"/></linearGradient>
+</defs>
+<rect width="800" height="580" fill="url(#bg)"/>
+<circle cx="610" cy="120" r="210" fill="#fff" opacity=".28"/>
+<circle cx="150" cy="500" r="170" fill="#b96f5d" opacity=".10"/>
+<ellipse cx="400" cy="498" rx="150" ry="18" fill="#3b2a2a" opacity=".16"/>
+<rect x="378" y="52" width="110" height="22" rx="10" fill="url(#gold)"/>
+<rect x="388" y="72" width="26" height="70" fill="#d9c0ae"/>
+<rect x="352" y="138" width="96" height="30" rx="4" fill="url(#gold)"/>
+<path d="M325 185 q0 -17 24 -17 h102 q24 0 24 17 v292 q0 22 -24 22 h-102 q-24 0 -24 -22z" fill="url(#glass)" stroke="#d3b8a8"/>
+<path d="M340 195 v270" stroke="#fff" stroke-opacity=".7" stroke-width="7" stroke-linecap="round"/>
+<rect x="335" y="285" width="130" height="118" rx="6" fill="#fffaf6"/>
+<text x="400" y="319" text-anchor="middle" font-family="Georgia,serif" font-size="26" letter-spacing="4" fill="#a45848">GLAM</text>
+<line x1="360" y1="331" x2="440" y2="331" stroke="#c9a15a" stroke-width="1.4"/>
+<text x="400" y="355" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#4a3a40">Repair</text>
+<text x="400" y="373" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#4a3a40">Shampoo</text>
+<text x="400" y="552" text-anchor="middle" font-family="Georgia,serif" font-size="15" letter-spacing="5" fill="#8a5446">HAIR CARE</text>
+</svg>

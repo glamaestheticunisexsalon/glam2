@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 580" width="800" height="580" role="img" aria-label="Argan Hair Serum (placeholder artwork)">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6e9e1"/><stop offset="1" stop-color="#e6cfc3"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e7c887"/><stop offset=".5" stop-color="#c9a15a"/><stop offset="1" stop-color="#a9803c"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fffaf6"/><stop offset=".55" stop-color="#f3e5dc"/><stop offset="1" stop-color="#dcc3b5"/></linearGradient>
+<linearGradient id="amber" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9a76a"/><stop offset=".5" stop-color="#b9783d"/><stop offset="1" stop-color="#8f5a2c"/></linearGradient>
+<linearGradient id="ink" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4a3a40"/><stop offset="1" stop-color="#2b2024"/></linearGradient>
+</defs>
+<rect width="800" height="580" fill="url(#bg)"/>
+<circle cx="610" cy="120" r="210" fill="#fff" opacity=".28"/>
+<circle cx="150" cy="500" r="170" fill="#b96f5d" opacity=".10"/>
+<ellipse cx="400" cy="498" rx="150" ry="18" fill="#3b2a2a" opacity=".16"/>
+<rect x="365" y="70" width="70" height="60" rx="30" fill="#2b2024"/>
+<rect x="378" y="125" width="44" height="38" fill="url(#gold)"/>
+<rect x="352" y="160" width="96" height="30" rx="4" fill="url(#gold)"/>
+<path d="M330 205 q0 -15 22 -15 h96 q22 0 22 15 v270 q0 22 -22 22 h-96 q-22 0 -22 -22z" fill="url(#amber)"/>
+<path d="M342 215 v250" stroke="#fff" stroke-opacity=".35" stroke-width="6" stroke-linecap="round"/>
+<rect x="335" y="270" width="130" height="118" rx="6" fill="#fffaf6"/>
+<text x="400" y="304" text-anchor="middle" font-family="Georgia,serif" font-size="26" letter-spacing="4" fill="#a45848">GLAM</text>
+<line x1="360" y1="316" x2="440" y2="316" stroke="#c9a15a" stroke-width="1.4"/>
+<text x="400" y="340" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#4a3a40">Argan</text>
+<text x="400" y="358" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#4a3a40">Hair Serum</text>
+<text x="400" y="552" text-anchor="middle" font-family="Georgia,serif" font-size="15" letter-spacing="5" fill="#8a5446">HAIR CARE</text>
+</svg>

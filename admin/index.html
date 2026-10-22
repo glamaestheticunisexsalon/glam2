@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>GLAM Admin</title>
+<link rel="stylesheet" href="admin.css"></head>
+<body>
+<section id="login" class="login" hidden>
+  <form id="login-form" class="card">
+    <h1>GLAM <em>Admin</em></h1><p class="muted">Sign in to manage products and inventory.</p>
+    <label>Password<input id="password" type="password" autocomplete="current-password" required></label>
+    <button class="btn primary" type="submit">Sign in</button><p id="login-error" class="error" role="alert"></p>
+  </form>
+</section>
+<div id="app" hidden>
+  <header class="bar"><strong>GLAM Admin</strong>
+    <nav id="tabs"><button data-tab="inventory" class="on">Inventory</button><button data-tab="orders">Orders</button><button data-tab="history">Stock history</button></nav>
+    <span class="spacer"></span><a class="btn" href="../index.html" target="_blank" rel="noopener">View site</a><button id="logout" class="btn">Sign out</button></header>
+  <main>
+    <div id="stats" class="stats"></div>
+    <section id="tab-inventory">
+      <div class="tools"><input id="q" type="search" placeholder="Search name, SKU, category…"><select id="filter"><option value="all">All products</option><option value="low">Low stock</option><option value="out">Out of stock</option><option value="hidden">Hidden</option></select><span class="spacer"></span><button id="csv" class="btn">Export CSV</button><button id="add" class="btn primary">+ Add product</button></div>
+      <div class="table-wrap"><table><thead><tr><th></th><th>Product</th><th>Price</th><th>Stock</th><th>Adjust</th><th>Status</th><th></th></tr></thead><tbody id="rows"></tbody></table></div>
+    </section>
+    <section id="tab-orders" hidden><div class="table-wrap"><table><thead><tr><th>Order</th><th>Customer</th><th>Items</th><th>Total</th><th>Payment</th><th>Fulfilment</th></tr></thead><tbody id="order-rows"></tbody></table></div></section>
+    <section id="tab-history" hidden><div class="table-wrap"><table><thead><tr><th>When</th><th>Product</th><th>Change</th><th>New stock</th><th>Reason</th><th>By</th></tr></thead><tbody id="log-rows"></tbody></table></div></section>
+  </main>
+</div>
+<dialog id="editor"><form id="editor-form" method="dialog">
+  <h2 id="editor-title">Edit product</h2>
+  <div class="grid">
+    <label class="wide">Name<input name="name" required maxlength="100"></label>
+    <label>Brand<input name="brand" maxlength="80"></label>
+    <label>Category<input name="category" maxlength="60" list="cats"></label><datalist id="cats"></datalist>
+    <label>SKU<input name="sku" maxlength="40"></label>
+    <label>List price (₹)<input name="price" type="number" min="0" step="0.01" required></label>
+    <label>Selling price (₹) <small>0 = no discount</small><input name="discountPrice" type="number" min="0" step="0.01" value="0"></label>
+    <label>Stock<input name="stock" type="number" min="0" step="1" required></label>
+    <label>Low-stock alert at<input name="lowStockAt" type="number" min="0" step="1" value="5"></label>
+    <label class="wide">Description<textarea name="description" rows="3" maxlength="1200"></textarea></label>
+    <label class="wide">How to use<textarea name="usage" rows="2" maxlength="600"></textarea></label>
+    <label class="wide">Ingredients <small>one per line</small><textarea name="ingredients" rows="2"></textarea></label>
+    <div class="wide imgbox"><img id="preview" alt="" width="90" height="90"><div><label>Image<input type="file" id="file" accept="image/jpeg,image/png,image/webp"></label><input name="image" type="hidden"><label>Image description<input name="imageAlt" maxlength="160"></label></div></div>
+    <label class="check"><input name="featured" type="checkbox"> Featured on home page</label>
+    <label class="check"><input name="active" type="checkbox" checked> Visible in the shop</label>
+  </div>
+  <p id="editor-error" class="error" role="alert"></p>
+  <div class="actions"><button type="button" id="delete" class="btn danger">Delete</button><span class="spacer"></span><button type="button" id="cancel" class="btn">Cancel</button><button type="submit" class="btn primary">Save</button></div>
+</form></dialog>
+<div id="toast" role="status"></div>
+<script src="admin.js"></script>
+</body></html>
